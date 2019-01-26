@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import { storeProducts, detailProduct } from './data'
 
 const ProductContext = React.createContext()
-//Provider
-//Consumer
 
 class ProductProvider extends Component {
     state = {
@@ -35,4 +33,3 @@ class ProductProvider extends Component {
 const ProductConsumer = ProductContext.Consumer
 
 export { ProductProvider, ProductConsumer }
-// export default ProductProvider;
